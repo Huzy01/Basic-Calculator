@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <script type="text/javascript" src="myscripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyles.css">
+</head>
+
+<body>
+
+  <!--<script>
+    function calculate(){
+  alert("hello");
+  //document.getElementById("num1").innerHTML;  +  document.getElementById("num2").innerHTML;  
+  var number1;
+  var number2;
+  var result;
+  //document.getElementById("num1").value;
+  //document.getElementById("num2").value;
+  number1 = document.getElementById("num1").value;
+  number2 = document.getElementById("num2").value;
+  result = number1 + number2;
+  document.getElementById("answer").innerHTML = result;
+}
+  </script>-->
+
+<div id="wrapper">
+ <h1> Online Calculator</h1>
+
+ <p>Enter your first number:</p>
+ <p><input type="number" id="num1" size="20"></p>
+
+<br>
+
+<p>Enter your second number:</p>
+<p><input type="number" id="num2" size="20"></p>
+
+<br>
+
+<p><input type="button" onclick="calculate()" value="Calculate!"></p>
+
+<p id="answer"> </p>
+</div>
+</body>
+</html>
